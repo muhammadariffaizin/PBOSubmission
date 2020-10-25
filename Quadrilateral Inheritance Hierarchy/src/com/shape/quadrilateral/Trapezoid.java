@@ -41,6 +41,7 @@ public class Trapezoid extends Quadrilateral {
 		return 0.5 * (top + bottom) * height;
 	}
 	
+	@Override
 	public String printAllProperties() {
 		return String.format("%s\n%s:\n%s\n%s: %s\n%s: %s\n%s: %s\n%s: %s\n",
 				"Trapezoid",

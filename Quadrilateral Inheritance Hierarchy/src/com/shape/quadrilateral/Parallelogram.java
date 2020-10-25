@@ -33,6 +33,7 @@ public class Parallelogram extends Quadrilateral {
 		return width * height;
 	}
 	
+	@Override
 	public String printAllProperties() {
 		return String.format("%s\n%s:\n%s\n%s: %s\n%s: %s\n%s: %s\n",
 				"Parallelogram",

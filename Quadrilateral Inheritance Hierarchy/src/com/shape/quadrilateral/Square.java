@@ -12,6 +12,7 @@ public class Square extends Rectangle {
 		super(point1, point2, point3, point4);
 	}
 	
+	@Override
 	public String printAllProperties() {
 		return String.format("%s\n%s:\n%s\n%s: %s\n%s: %s\n",
 				"Square",
