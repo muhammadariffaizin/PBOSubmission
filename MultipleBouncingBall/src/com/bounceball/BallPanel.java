@@ -33,7 +33,8 @@ public class BallPanel extends JPanel {
 				Dimension dim = c.getSize();
 				areaWidth = dim.width;
 				areaHeight = dim.height;
-				box.set(0, 0, width, height);
+				System.out.println(areaWidth + areaHeight);
+				box.set(0, 0, areaWidth, areaHeight);
 			}
 		});
 		startThread();
