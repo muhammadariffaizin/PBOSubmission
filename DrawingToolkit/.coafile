@@ -1,0 +1,5 @@
+# Learn about writing coafile at http://coala.readthedocs.io/en/latest/Users/coafile.html
+[all]
+enabled = True
+overrideable = 10
+ignore = bin/
